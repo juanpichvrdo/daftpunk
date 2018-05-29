@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  color: #07020D;
+  background-color: #030105;
+}
+
+/* ---------------------------------------- */
+/* Reusable Components */
+/* ---------------------------------------- */
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 0 32px 20px;
+}
+
+
+/* ------------------ Headings ------------------- */
+h1, h2, h3 {
+    font-family: 'Passion One', cursive;
+    /* font-weight: 900; */
+    color: #07020D;
+    padding: 0 15px;
+    background: #f3f4ee;
+
+    letter-spacing: -3px;
+}
+
+h1 {
+    font-size: 400%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 300%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 5%;
+    font-size: 250%;
+    display: inline-block;
+    border-bottom: solid 2px #07020D;
+}
+
+/*---------------- Paragrahps ------------------*/
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 110%;
+    color: #07020D;
+    background: #f3f4ee;
+    padding: 20px;
+}
+
+/*---------------- Pictures ------------------*/
+
+.pic {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7%;
+    opacity: 0.9;
+    transition: 1s;
+}
+
+.pic:hover {
+    opacity: 1;
+}
+
+
+/* ---------------------------------------- */
+/* Header */
+/* ---------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 7)), url(../img/hero-img.jpg);
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center 15%;
+    background-attachment: fixed;
+}
+
+.logo img {
+    width: 10%;
+    margin: 1%;
+}
+
+
+/* ---------------------------------------- */
+/* Intro */
+/* ---------------------------------------- */
+
+.intro {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro-text  {
+    width: 50%;
+    margin-right: 2%;
+}
+
+.intro-img {
+    width: 50%;
+    background: #f3f4ee;
+    margin-left: 2%;
+    text-align: center;
+}
+
+/* ---------------------------------------- */
+/* History */
+/* ---------------------------------------- */
+
+/*---------------- Beginnings ------------------*/
+
+
+.young-container {
+    display: flex;
+    align-items: flex-start;   
+}
+
+.young-img {
+    width: 70%;
+    margin: 0 auto;
+    background: #f3f4ee;
+    margin-top: 20px;
+}
+
+
+.young-container p {
+    width: 20%;
+    align-self: center;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    transform: scale(1.30);
+    transition: 2s;
+}
+
+.young-container p:hover {
+    transform: scale(1.40);
+}
+
+/*---------------- Homework ------------------*/
+
+.homework {
+    display: flex;
+}
+
+.homework-text {
+    width: 55%;
+    margin-right: 5%;
+}
+
+.homework-img {
+    width: 40%;
+    background: #f3f4ee;
+}
+
+
+/*---------------- Discovery ------------------*/
+
+.discovery {
+    display: flex;
+    flex-direction: column;
+}
+
+.discovery h3 {
+    align-self: center;
+}
+
+.discovery-images {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.discovery-img {
+    width: 35%;
+}
+
+.discovery-img img {
+    width: 100%;
+}
+
+.interstella-img {
+    width: 45%;
+}
+
+.interstella-img img {
+    width: 100%;
+    margin-top: 100px;
+    justify-self: center;
+}
+
+.interstella-img p {
+    text-align: center;
+}
+
+.discovery-img,
+.interstella-img {
+    background: #f3f4ee;
+}
+
+/*---------------- Human after all ------------------*/
+
+.human-after-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.human-after-all-text {
+    width: 55%;
+    order: 1;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.human-after-all-img {
+    width: 40%;
+    order: 0;
+    align-self: center;
+    background: #f3f4ee;
+}
+
+/*---------------- Alive ------------------*/
+
+
+.alive {
+    padding: 0;
+}
+
+.alive h3 {
+    background-color: #030105;
+    width: 100%;
+    text-align: center;
+    color: #f3f4ee;
+}
+  
+.alive-showcase {
+    /* margin-top: 50px; */
+    list-style: none;
+    width: 100%;
+    display: flex;
+}
+
+.alive-showcase li {
+    display: block;
+    /* float: left; */
+    width: 25%;
+}
+
+.alive-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.alive-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: 1s;
+}
+
+.alive-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+

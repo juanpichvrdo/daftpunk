@@ -30,11 +30,9 @@ section {
 /* ------------------ Headings ------------------- */
 h1, h2, h3 {
     font-family: 'Passion One', cursive;
-    /* font-weight: 900; */
     color: #07020D;
     padding: 0 15px;
     background: #f3f4ee;
-
     letter-spacing: -3px;
 }
 
@@ -66,6 +64,12 @@ p {
     background: #f3f4ee;
     padding: 20px;
     line-height: 120%;
+}
+
+/*---------------- Links ------------------*/
+
+a {
+    text-decoration: none;
 }
 
 /*---------------- Pictures ------------------*/
@@ -319,3 +323,52 @@ header {
     align-self: center;
 }
 
+/* ---------------------------------------- */
+/* Footer */
+/* ---------------------------------------- */
+
+footer {
+    background: #f3f4ee;
+    width: 100%;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-links div {
+    margin-left: 10%;
+}
+
+footer a {
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+footer  i,
+footer  a {
+    font-weight: 500;
+    font-size: 150%;
+    color: #07020d;
+    transition: 0.5s;
+}
+
+footer a i:hover, 
+footer a:hover {
+    color: #DDA53A;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+p.coder {
+    font-size: 95%;
+    text-align: center;
+}

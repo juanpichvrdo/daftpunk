@@ -372,3 +372,35 @@ p.coder {
     font-size: 95%;
     text-align: center;
 }
+
+/* ---------------------------------------- */
+/* Animations*/
+/* ---------------------------------------- */
+
+
+.js--header,
+.js--text-1,
+.js--header-2,
+.js--pic-1,
+.js--text-2,
+.js--pic-2,
+.js--pic-3,
+.js--pic-4,
+.js--pic-5,
+.js--pic-6,
+.js--pic-7,
+.js--pic-8
+{
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+
+.js--text-2{
+    animation-duration: 3s;
+}
+
+.js--header.animated {
+    opacity: 1;
+}
+ 

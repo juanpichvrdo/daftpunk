@@ -60,7 +60,7 @@ p {
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     font-size: 110%;
-    color: #07020D;
+    color: rgba(7, 2, 13, 0.90);
     background: #f3f4ee;
     padding: 20px;
     line-height: 120%;
@@ -389,15 +389,17 @@ p.coder {
 .js--pic-5,
 .js--pic-6,
 .js--pic-7,
-.js--pic-8
+.js--pic-8,
+.js--pic-9
 {
     opacity: 0;
     animation-duration: 1s;
 }
 
 
-.js--text-2{
-    animation-duration: 3s;
+.js--text-2,
+.js--pic-9 {
+    animation-duration: 5s;
 }
 
 .js--header.animated {

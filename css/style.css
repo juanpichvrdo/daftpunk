@@ -201,18 +201,15 @@ header {
     width: 35%;
 }
 
-.discovery-img img {
-    width: 100%;
-}
+
 
 .interstella-img {
     width: 45%;
 }
 
 .interstella-img img {
-    width: 100%;
     margin-top: 100px;
-    justify-self: center;
+    /* justify-self: center; */
 }
 
 .interstella-img p {

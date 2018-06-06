@@ -1,0 +1,209 @@
+
+    /* Big tablet to 1200px  */
+@media only screen and (max-width: 1200px) {
+    
+    body { 
+        font-size: 18px;
+        
+     }
+
+     .logo img {
+        width: 15%;
+        margin: 2%;
+    }
+}
+
+/* Small tablet to big tablets: from 768 to 1023 */
+@media only screen and (max-width: 1023px) {
+
+    h1 {
+        font-size: 470%;
+        margin-bottom: 0.3em;
+    }
+
+    h2 {
+        font-size: 310%;
+        margin-bottom: 0.2em;
+        margin-top: 0.5em;
+    }
+
+    h3 {
+        font-size: 180%;
+        margin-bottom: 0.15em;
+    }
+
+    p { 
+        line-height: 105%;
+        padding: 10px;
+    }
+
+    section { 
+        padding: 0 25px 10px;
+    }
+
+    .pic {
+        padding: 5px;
+    }
+
+    .young-img {
+        width: 55%;
+        margin: 2% 8%;
+    }
+
+    .young-container p {
+        width: 20%;
+        font-size: 100%;
+    }
+
+    .homework-text {
+        margin-right: 2%;
+    }
+
+    .homework-img {
+        width: 43%;
+    }
+    
+    .homework-img img {
+        height: 100%;
+        padding: 10px;
+    }
+
+    .discovery-img {
+        width: 35%;
+        height: auto;
+    }
+
+    .discovery-img img {
+        height: auto;
+    }  
+
+    .interstella-img {
+        width: 60%;
+    }
+
+    .human-after-all-text { 
+        width: 48%;
+    }
+
+    .human-after-all-img {width: 47%;}
+
+    .tron-img { width: 50%; }
+
+    .ram {
+        margin-left: 1em;
+    }
+
+    .ram-heading {
+        margin-left: 0.37em;
+    }
+
+    .social-links { 
+        display: block;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+
+    footer {
+        padding: 4%;
+    }
+
+    footer  i,
+    footer  a {
+        margin-top: 20px;
+    }
+    
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section {padding: 0 20px 7px; }
+    
+    h1 {
+        font-size: 400%;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+
+    .container { width: 100%;}
+
+    .intro,
+    .homework,
+    .discovery-images,
+    .human-after-all,
+    .tron,
+    .ram
+    {display: inline-block;}
+    
+    .intro-text,
+    .homework-text,
+    .human-after-all-text,
+    .tron-text,
+    .ram-text
+    { width: 100%;}
+    
+    .intro-img,
+    .tron-img,
+    .ram-img {
+        width: 80%;
+        margin: 1em auto 0;
+    }
+    
+    .young-img
+     {
+        width: 75%;
+    }
+    
+    .young-container p {
+       display: none;
+    }
+    
+    .js--header-2 {
+        /* margin-left: 0.5em; */
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .homework-img {
+        width: 60%;
+        margin: 1em auto 0;
+    }
+    
+    .discovery-img,
+    .human-after-all-img {
+        width: 80%;
+        margin: 1em auto;
+    }
+
+    .interstella-img {
+        display: none;
+    }
+
+    .alive-showcase li {
+        display: flex;
+        width: 50%;
+    }
+
+    
+    footer {
+        padding: 3%;
+    }
+    
+    footer  i,
+    footer  a {
+        font-size: 130%
+    }
+
+}
+
+

@@ -100,9 +100,49 @@ header {
     background-attachment: fixed;
 }
 
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo img {
-    width: 10%;
+    display: inline-block;
+    width: 28%;
     margin: 1%;
+}
+
+nav ul {
+    margin: 0 2em;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 0 1em;
+    padding: 1em;
+}
+
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: rgba(243, 244, 238, 0.9);
+    font-family: 'Oswald', sans-serif;
+    font-size: 200%;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    border-bottom: solid 3px #DDA53A;
+    color: rgba(243, 244, 238, 1);
+}
+
+#submenu ul li{
+    display: none;
+}
+
+#submenu:hover > ul li{
+    display: flex;
 }
 
 
